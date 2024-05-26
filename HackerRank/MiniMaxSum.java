@@ -5,7 +5,7 @@ public class MiniMaxSum {
         // Write your code here
         int maxNumber = 0;
         int minNumber = 1000000000;
-        int sum = 0;
+        long sum = 0;
         for (int i = 0; i < arr.size(); i++) {
             int temp = arr.get(i);
             sum += arr.get(i);
