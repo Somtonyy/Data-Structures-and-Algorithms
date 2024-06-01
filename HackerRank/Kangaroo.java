@@ -1,6 +1,7 @@
 public class Kangaroo {
     public static String kangaroo(int x1, int v1, int x2, int v2) {
         // Write your code
+
         if (x1 == x2) {
             return "YES";
         }
