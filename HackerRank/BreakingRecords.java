@@ -8,7 +8,7 @@ public class BreakingRecords {
         int highest = -100000000;
         int lowestCounter = -1;
         int highestCounter = -1;
-        List<Integer> result = new ArrayList<>();
+        List<Integer> result = new ArrayList<Integer>();
         for (int i = 0; i < scores.size(); i++) {
             if (scores.get(i) > highest) {
                 highest = scores.get(i);
